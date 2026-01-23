@@ -1,0 +1,93 @@
+(footprint "SYM_JLCPCB_QRCode_WithSerialNumber_10.0mmx10.0m"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "QR code of size 10mm x 10mm")
+	(tags "QR code 10mm")
+	(property "Reference" "G***"
+		(at 0 -7.898 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f2cfc46f-56cc-4635-a309-77c2957034f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SYM_JLCPCB_QRCode_WithSerialNumber_10.0mmx10.0mm"
+		(at 0 11.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f89261-74d4-4f2d-b5b3-9cd1760a8ef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c15fcf2f-5ca2-4607-8a3f-ca3176464798")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "QR code of size 10mm x 10mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "256e1031-2c6b-4ae2-b11c-7d8fcf11ad95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -5 -5)
+		(end 5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4efc6320-3179-45ca-b7df-056186a28b13")
+	)
+	(fp_rect
+		(start -6.5 -6.5)
+		(end 6.5 10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "50dac651-943e-4e45-b696-a5d5a2be928c")
+	)
+	(fp_rect
+		(start -5 6.5)
+		(end 5 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "8d0f4f56-ff45-4969-94da-6f3463010f7e")
+	)
+	(embedded_fonts no)
+)

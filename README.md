@@ -1,4 +1,4 @@
-# hack&Roll 2026 "Quack & Roll" hardware badge
+# Hack&Roll 2026 "Quack & Roll" hardware badge
 
 This repository contains both the hardware and firmware source files for the
 Hack&Roll 2026 hardware badge.
@@ -16,8 +16,10 @@ following people:
 - **Terence** Chan Zun Mun ([@Hackin7](https://github.com/Hackin7)), for his
   invaluable knowledge and guidance in PCB design and hardware badge
   development, as well as liaising with Espressif Systems
+- Tan **Le Yew** ([@itsme-zeix](https://github.com/itsme-zeix)), for helping out
+  with development and troubleshooting of the NFC controller badge
 - Lim **Yik Jin** ([@yikjin](https://github.com/yikjin)), for developing the
-  hardware badge
+  hardware badges
 - Park **Youngseo** ([@youngseopark05](https://github.com/youngseopark05)), for
   creating the artwork used for this hardware badge
 - Koh Chan Hong, **Ravern** ([@ravern](https://github.com/ravern)), for liaising
