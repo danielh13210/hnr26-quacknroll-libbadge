@@ -1,6 +1,6 @@
 from machine import Pin, I2C, SoftI2C, PWM
-import hardware.music_player
-from hardware.aw9523 import AW9523
+import lib.libbadge.music_player
+from lib.libbadge.aw9523 import AW9523
 
 
 def beep(buzzer, freq, duration):
@@ -39,15 +39,15 @@ class Hardware:
         print("buzz mp")
         buzz_on = self.buzzer_on
         buzz_off = self.buzzer_off
-        music = hardware.music_player.RTTTL(music_rtttl).notes()
-        mp = hardware.music_player.MusicPlayer(buzz_on, buzz_off)
+        music = lib.libbadge.music_player.RTTTL(music_rtttl).notes()
+        mp = lib.libbadge.music_player.MusicPlayer(buzz_on, buzz_off)
         mp.play_music(music)
     
     def get_rtttl_task(self, music_rtttl):
         print("buzz mp")
         buzz_on = self.buzzer_on
         buzz_off = self.buzzer_off
-        music = hardware.music_player.RTTTL(music_rtttl).notes()
-        mp = hardware.music_player.MusicPlayer(buzz_on, buzz_off)
+        music = lib.libbadge.music_player.RTTTL(music_rtttl).notes()
+        mp = lib.libbadge.music_player.MusicPlayer(buzz_on, buzz_off)
         return mp.get_music_task(music)
     
