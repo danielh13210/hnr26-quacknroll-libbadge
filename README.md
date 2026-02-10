@@ -32,3 +32,8 @@ following people:
 The ESP32-C3-WROOM-02-N4 module in this hardware badge is also sponsored by
 [Espressif Systems](https://www.espressif.com/), the manufacturers of the
 widely-used ESP32 chips.
+
+## Install
+
+To install the firmware, run ./install.sh
+Then place the program at :/main.py. It will have access to libbadge, which is the Hardware class instance and can be used to control the LEDs and buttons.
