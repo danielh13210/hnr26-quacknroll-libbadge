@@ -1,7 +1,7 @@
-# Hack&Roll 2026 "Quack & Roll" hardware badge
+# Hack&Roll 2026 "Quack & Roll" hardware badge firmware
 
-This repository contains both the hardware and firmware source files for the
-Hack&Roll 2026 hardware badge.
+This repository contains the firmware source files for the
+Hack&Roll 2026 hardware badge to allow the reuse of the badge for other projects.
 
 ## License
 
