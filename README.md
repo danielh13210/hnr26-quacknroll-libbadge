@@ -36,4 +36,5 @@ widely-used ESP32 chips.
 ## Install
 
 To install the firmware, run ./install.sh
-Then place the program at :/main.py. It will have access to libbadge, which is the Hardware class instance and can be used to control the LEDs and buttons.
+
+A module ```libbadge``` will be created, to use the LEDs, speaker, and buttons. 
